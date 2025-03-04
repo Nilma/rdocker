@@ -4,8 +4,10 @@ This guide explains how to set up, build, and run a React app inside Docker.
 
 ## Prerequisites
 - [Docker](https://www.docker.com/get-started) installed on your system.
+- a repository on Github where you download it and open it from your VSC
 
 ---
+
 
 ## 1. Create a `Dockerfile`
 Inside your project folder, create a file named `Dockerfile` (no extension) and add the following content:
@@ -88,5 +90,6 @@ docker run -p 3001:3000 my-react-app
 
 ---
 
-Now you're all set! Modify your React files inside your project, and changes will reflect automatically. Let me know if you need any improvements!
+Now you're all set! Modify your React files inside your project, and changes will reflect automatically. 
+Remember to add the deploy.yml file for your CI/CD
 
